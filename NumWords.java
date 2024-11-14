@@ -4,7 +4,7 @@ public class NumWords {
 	    int originalNum = Integer.parseInt(args[0]);
 	    int units = originalNum % 10;
 	    int tens = (originalNum / 10) % 10;
-	    int hundreds = (originalNum/ 100) % 10;
+	    int hundreds = (originalNum/ 100);
 	    System.out.println(hundreds + " hundreds, " + tens + " tens, and " + units  + " ones.");
 	}
 }
